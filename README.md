@@ -6,6 +6,12 @@ It's a relatively simple python script to kirkify any image or video given.
 
 ## Setup
 
+### Quick Setup
+
+Run ***setup.sh*** to quickly set up this code in a venv on your system. This is Unix-like (Darwin, Linux, etc.) only. 
+
+### Long-winded Setup
+
 It's a bit of a pain to setup but I promise it's worth it.
 
 First download the face swapping AI (528mb)
