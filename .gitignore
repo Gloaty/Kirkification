@@ -18,3 +18,5 @@ tests/
 
 inswapper_128.onnx
 audio.aac
+
+generatedImages/
