@@ -8,7 +8,7 @@ It's a relatively simple python script to kirkify any image or video given.
 
 ### Quick Setup
 
-Run ***setup.sh*** to quickly set up this code in a venv on your system. This is Unix-like (Darwin, Linux, etc.) only. 
+Run ***setup.sh*** to quickly set up this code in a venv on your system. This should work on all systems, contact me if it doesn't. 
 
 ### Long-winded Setup
 
@@ -67,6 +67,14 @@ You should see a line like: `INSwapper active providers: ['CUDAExecutionProvider
 If CUDA is not available, the script will fall back to CPU and print a warning.
 
 ## Usage
+
+First, initialise the virtual environment. This is mandatory as packages are installed to the .venv folder, not your entire system. Use this command to initialize it:
+
+```bash
+source .venv/bin/activate
+```
+
+Then, to run the program, use this command, filling in the blanks to suit your needs based on file names and extensions:
 
 ```bash
 python3 kirkify.py <input_media> [output_path]
